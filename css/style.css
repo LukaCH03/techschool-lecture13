@@ -1,0 +1,66 @@
+header {
+  border: 1px dashed black;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  padding: 24px 12px;
+  /* margin-bottom: 64px; */
+}
+
+.header-container {
+  border: 1px dashed hotpink;
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #000;
+  font-family: "TBC Contractica";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #00a3e0;
+}
+.active {
+  color: #00a3e0;
+  font-weight: 700;
+}
+
+.header-container img {
+  width: 246.575px;
+  height: 48px;
+}
+
+ul {
+  display: flex;
+  /* align-items: center; */
+  gap: 64px;
+}
+
+.material-symbols-outlined {
+  display: none;
+  font-size: 42px;
+}
+
+/* main  */
+
+main {
+  padding: 64px 12px;
+  background-color: #f6f6f6;
+}
+
+.main-container {
+  border: 1px dashed hotpink;
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+}
