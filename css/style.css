@@ -46,9 +46,10 @@ ul {
   gap: 64px;
 }
 
-.material-symbols-outlined {
+.menu {
   display: none;
-  font-size: 42px;
+  font-size: 39px;
+  cursor: pointer;
 }
 
 /* main  */
