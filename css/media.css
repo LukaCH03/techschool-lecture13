@@ -6,3 +6,27 @@
     display: inline;
   }
 }
+
+@media (max-width: 750px) {
+  .img-text-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 750px) {
+  .img-text-wrapper2 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 750x) {
+  footer {
+    padding: 30px 20px; /* Reduced side padding for mobile */
+  }
+
+  .footer-container {
+    flex-direction: column; /* Stacks logo above icons */
+    gap: 20px; /* Spacing between logo and icons */
+    text-align: center;
+  }
+}

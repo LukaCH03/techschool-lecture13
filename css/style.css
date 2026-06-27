@@ -1,5 +1,5 @@
 header {
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   height: 96px;
   display: flex;
   justify-content: center;
@@ -8,7 +8,7 @@ header {
 }
 
 .header-container {
-  border: 1px dashed hotpink;
+  /* border: 1px dashed hotpink; */
   max-width: 1220px;
   width: 100%;
   margin: 0 auto;
@@ -60,7 +60,7 @@ main {
 }
 
 .main-container {
-  border: 1px dashed hotpink;
+  /* border: 1px dashed hotpink; */
   max-width: 1220px;
   width: 100%;
   margin: 0 auto;
@@ -122,9 +122,21 @@ h2 {
 .img-text-wrapper {
   display: flex;
   gap: 24px;
+  margin-bottom: 36px;
+}
+
+.img-text-wrapper2 {
+  display: flex;
+  gap: 24px;
+  /* margin-bottom: 36px; */
 }
 
 article img {
+  display: flex;
+  gap: 24px;
+}
+article {
+  margin-bottom: 64px;
 }
 
 article p {
@@ -134,4 +146,53 @@ article p {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+}
+
+/* footer {
+  padding: 40px 110px;
+}
+.footer-container {
+  max-width: 1220px;
+  width: 100%;
+  background: #fff;
+  margin: auto;
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+footer {
+  padding: 40px 110px;
+  background-color: #fff; /* Keeping it clean white */
+}
+
+.footer-container {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* New styles for the social media group */
+.social-icons {
+  display: flex;
+  gap: 20px; /* This creates a clean, uniform space between the two icons */
+  align-items: center;
+}
+
+.social-icons img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Forces a perfect square ratio */
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+/* Subtle interactive effect for your users */
+.social-icons img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
 }
